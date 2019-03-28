@@ -1,10 +1,10 @@
-                                                  #Install Grafana 
+                                                  # Install Grafana 
                                                           
-  #Whot is Grafana ??
+  # What is Grafana ??
 Grafana is an open source, feature rich, powerful, elegant and highly-extensible analytics and monitoring software that runs on Linux, Windows and MacOS. It is a de facto software for data analytics, being used at Stack Overflow, eBay, PayPal, Uber and Digital Ocean – just to mention but a few.
 It supports 30+ open source as well as commercial databases/data sources including MySQL, PostgreSQL, Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB. It allows you to dig deeply into large volumes of real-time, operational data; visualize, query, set alerts and get insights from your metrics from different storage locations.
 
- #Steps for Installation:
+ # Steps for Installation:
 
 1. You need use 'namespaces' it already created on Kubernetes Cluster 
 
@@ -55,11 +55,12 @@ DRhjjZDFDGTlwmRm
 
 5. To check if everething correct run this commands:
 
+```python
    kubectl get sectets -n tools
    kubectl get pods -n tools
    kubectl get service -n tools
    kubectl get deployment -n tools 
-
+```
 6. kubectl -n grafana get services
 
    The output should show a service called 'grafana-service'
