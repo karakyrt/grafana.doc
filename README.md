@@ -39,6 +39,7 @@ It supports 30+ open source as well as commercial databases/data sources includi
    ```
 
    for decryption:
+   
    ```
      use this command: echo 'MWYyZDFlFGghHVH' | base64 --decode
    ```  
